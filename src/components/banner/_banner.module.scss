@@ -1,0 +1,17 @@
+
+
+.carouselContainer {
+
+    position: relative;
+}
+
+.opacityBlock {
+
+    position: absolute;
+    width: 100%;
+    height: 8rem;
+    $grade: transparent, rgba(243, 244, 246, 0) ;
+    background-image: linear-gradient(to top, #f3f4f6, rgb(218, 218, 218), transparent);
+    bottom: 0px;
+    z-index: 20;
+}

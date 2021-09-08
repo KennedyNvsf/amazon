@@ -1,0 +1,226 @@
+// .headerSection{
+
+//     background-color: red;
+// }
+
+
+.topNav{
+
+    display: flex;
+    align-items: center;
+    background: #131921;
+    padding: 0.25rem;
+    flex-grow: 1;
+    padding: 0.5em 0rem ;
+}
+
+.logo{
+
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    flex-grow: 0;
+}
+.imgtag{
+
+    cursor:pointer;
+}
+
+.searchContainer{
+
+    background: #FBBF24;
+    display: flex;
+    align-items: center;
+    height: 2.5rem;
+    border-radius: 0.375rem;
+    flex-grow: 1;
+    cursor: pointer;
+
+    &:hover{
+
+        background: #F59E0B;
+    }
+}
+
+.searchIcon{
+
+    height: 3rem;
+    padding: 1rem;
+}
+
+.searchInput{
+
+    padding: 0.5rem;
+    height: 100%;
+    width: 1.5rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+    border-top-left-radius: 0.375rem;
+    border-bottom-left-radius: 0.375rem;
+    outline: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.rightSection{
+
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    white-space: nowrap;
+
+    div{
+
+        margin-right: 1.5rem;
+    }
+}
+
+
+.shopIcon{
+
+    height: 2.5rem;
+}
+
+.navRight{
+
+    cursor: pointer;
+    
+
+    &:hover{
+
+        text-decoration: underline;
+
+    }
+}
+
+.navBold{
+
+    font-weight: 800;
+    margin-top: 0.5rem;
+}
+
+.basket{
+
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.basketTxt{
+
+    margin-top: 0.5rem;
+}
+
+.basketCount{
+
+    position: absolute;
+    top: 0;
+    right: 35%;
+    width: 1rem;
+    height: 1rem;
+    background: #FBBF24;
+    text-align: center;
+    border-radius: 9999px;
+    color: black;
+    font-weight: 700;
+    // border-radius: 50%;
+}
+
+@media screen and (max-width: 640px){
+
+    .topNav{
+
+        flex-grow: 0;
+    }
+
+    .searchContainer{
+
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
+   .basketTxt{
+
+       display: inline-block;
+       visibility: hidden;
+       
+   }
+
+  
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .navBold{
+
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+
+    }
+
+ 
+    
+}
+
+/***********BOTTOM NAV*************************/
+
+.bottomNav {
+
+    display: flex;
+    align-items: center;
+    background: #232F3E;
+    color: white;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    padding: 0.5rem;
+    padding-left: 1.5rem;
+
+    p{
+        margin-right: 0.75rem;
+        margin-left: 0.75rem;
+    }
+}
+.menuIcon{
+
+    margin-right: 0.25rem;
+    height: 1.5rem;
+}
+
+.bottomLink{
+
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    
+
+    &:hover{
+
+        text-decoration: underline;
+
+    }
+}
+
+.largeLinks{
+
+    visibility: hidden;
+}
+
+@media screen and (min-width: 768px) {
+
+    .largeLinks{
+
+        visibility: visible;
+        
+    }
+
+ 
+    
+}

@@ -1,0 +1,19 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+
+    font-family: 'Roboto', sans-serif;
+}
+
+
+@import "../components/header/header.module";
+@import "../styles/index.module";
+@import "../components/banner/banner.module";
+@import "../components/productFeed/productfeed.module";
+@import "../components/product/product.module";
